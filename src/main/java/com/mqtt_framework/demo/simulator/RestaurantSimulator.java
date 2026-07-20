@@ -24,7 +24,7 @@ public class RestaurantSimulator {
 	@EventListener(ApplicationReadyEvent.class)
 	public void run() throws Exception {
 
-		lifecycleManager.start();
+		//lifecycleManager.start();
 
 		Thread.sleep(1000);
 
