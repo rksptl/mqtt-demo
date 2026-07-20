@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: demo
+mqtt:
+    enabled: true
+    broker-url: tcp://localhost:31884
+    client-id: demo-client
+    clean-session: true
+    automatic-reconnect: true
+    connection-timeout: 30
+    keep-alive-interval: 60
